@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Clone.png" width="3959" height="3385">
+  <SubTexture name="Clone gun down0001" x="0" y="0"  width="711" height="828" frameX="-0" frameY="-12" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0001" x="711" y="0"  width="708" height="828" frameX="-0" frameY="-12" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0003" x="1419" y="0"  width="706" height="832" frameX="-0" frameY="-8" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0005" x="2125" y="0"  width="706" height="835" frameX="-0" frameY="-5" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun down0003" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone down0001" x="3536" y="0"  width="313" height="846" frameX="-0" frameY="-11" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone gun idle0007" x="0" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0009" x="705" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun left0003" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0001" x="2114" y="840"  width="728" height="840" frameX="-0" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun right0001" x="2842" y="840"  width="690" height="846" frameX="-11" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone idle0001" x="3532" y="846"  width="311" height="848" frameX="-4" frameY="-9" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone gun right0003" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun up0003" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone idle0003" x="1400" y="1672"  width="310" height="850" frameX="-5" frameY="-7" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0005" x="1710" y="1672"  width="310" height="855" frameX="-7" frameY="-2" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone gun up0001" x="2020" y="1680"  width="696" height="852" frameX="-0" frameY="-0" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone down0003" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone idle0007" x="3027" y="1686"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0009" x="3338" y="1694"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone left0001" x="3649" y="1694"  width="310" height="857" frameX="-2" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0003" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone right0001" x="311" y="2514"  width="317" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0003" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone up0003" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0001" x="1250" y="2522"  width="310" height="863" frameX="-1" frameY="-0" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone down0002" x="3536" y="0"  width="313" height="846" frameX="-0" frameY="-11" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0004" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0005" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0006" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0007" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0008" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0009" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0010" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0011" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0012" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0013" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone down0014" x="2716" y="1686"  width="311" height="857" frameX="-2" frameY="-0" frameWidth="313" frameHeight="857"/>
+  <SubTexture name="Clone gun down0002" x="0" y="0"  width="711" height="828" frameX="-0" frameY="-12" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0004" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0005" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0006" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0007" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0008" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0009" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0010" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0011" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0012" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0013" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun down0014" x="2831" y="0"  width="705" height="840" frameX="-0" frameY="-0" frameWidth="711" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0002" x="711" y="0"  width="708" height="828" frameX="-0" frameY="-12" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0004" x="1419" y="0"  width="706" height="832" frameX="-0" frameY="-8" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0006" x="2125" y="0"  width="706" height="835" frameX="-0" frameY="-5" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0008" x="0" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0010" x="705" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0011" x="705" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0012" x="705" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0013" x="705" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun idle0014" x="705" y="828"  width="705" height="840" frameX="-1" frameY="-0" frameWidth="708" frameHeight="840"/>
+  <SubTexture name="Clone gun left0002" x="2114" y="840"  width="728" height="840" frameX="-0" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0004" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0005" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0006" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0007" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0008" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0009" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0010" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0011" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0012" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0013" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun left0014" x="1410" y="832"  width="704" height="840" frameX="-25" frameY="-0" frameWidth="729" frameHeight="840"/>
+  <SubTexture name="Clone gun right0002" x="2842" y="840"  width="690" height="846" frameX="-11" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0004" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0005" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0006" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0007" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0008" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0009" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0010" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0011" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0012" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0013" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun right0014" x="0" y="1668"  width="700" height="846" frameX="-0" frameY="-0" frameWidth="709" frameHeight="846"/>
+  <SubTexture name="Clone gun up0002" x="2020" y="1680"  width="696" height="852" frameX="-0" frameY="-0" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0004" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0005" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0006" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0007" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0008" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0009" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0010" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0011" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0012" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0013" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone gun up0014" x="700" y="1668"  width="700" height="846" frameX="-0" frameY="-6" frameWidth="700" frameHeight="852"/>
+  <SubTexture name="Clone idle0002" x="3532" y="846"  width="311" height="848" frameX="-4" frameY="-9" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0004" x="1400" y="1672"  width="310" height="850" frameX="-5" frameY="-7" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0006" x="1710" y="1672"  width="310" height="855" frameX="-7" frameY="-2" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0008" x="3027" y="1686"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0010" x="3338" y="1694"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0011" x="3338" y="1694"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0012" x="3338" y="1694"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0013" x="3338" y="1694"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone idle0014" x="3338" y="1694"  width="311" height="857" frameX="-7" frameY="-0" frameWidth="319" frameHeight="857"/>
+  <SubTexture name="Clone left0002" x="3649" y="1694"  width="310" height="857" frameX="-2" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0004" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0005" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0006" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0007" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0008" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0009" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0010" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0011" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0012" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0013" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone left0014" x="0" y="2514"  width="311" height="857" frameX="-9" frameY="-0" frameWidth="320" frameHeight="857"/>
+  <SubTexture name="Clone right0002" x="311" y="2514"  width="317" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0004" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0005" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0006" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0007" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0008" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0009" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0010" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0011" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0012" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0013" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone right0014" x="628" y="2514"  width="311" height="857" frameX="-0" frameY="-0" frameWidth="317" frameHeight="857"/>
+  <SubTexture name="Clone up0002" x="1250" y="2522"  width="310" height="863" frameX="-1" frameY="-0" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0004" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0005" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0006" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0007" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0008" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0009" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0010" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0011" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0012" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0013" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+  <SubTexture name="Clone up0014" x="939" y="2514"  width="311" height="858" frameX="-0" frameY="-5" frameWidth="311" frameHeight="863"/>
+</TextureAtlas>
