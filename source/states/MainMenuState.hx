@@ -74,16 +74,19 @@ class MainMenuState extends MusicBeatState
 			menuItem.distancePerItem.x = 600;
 			menuItems.add(menuItem);
 
+			// if (!ClientPrefs.data.blockMainMenu && optionShit[i] == 'Freeplay') menuItem.alpha = 0.5;
+				
+
 			menuItem.snapToPosition();
 		}
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
-		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		versionShit.setFormat("DroidSerif-Regular.ttf", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
 		versionShit.scrollFactor.set();
-		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		versionShit.setFormat("DroidSerif-Regular.ttf", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
 
 		changeItem();
@@ -150,9 +153,26 @@ class MainMenuState extends MusicBeatState
 								{
 									case 'story_mode':
 										PlayState.isStoryMode = true;
-										var songArray = ['i_miss_you','consequences'];
+										var songArray = [];
+										WeekData.reloadWeekFiles(true);
+										for (i in 0...WeekData.weeksList.length)
+										{
+											var weekFile:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
+											WeekData.setDirectoryFromWeek(weekFile);
+
+											for (songs in weekFile.songs)
+											{
+												songArray.push(songs[0]);
+											}
+										}
+
+										// var curDifficulty:Int = 0;
+										// var diffic = Difficulty.getFilePath(curDifficulty);
+										// if(diffic == null) diffic = '';
+										
+										// trace(songArray);
 										PlayState.storyPlaylist = songArray;
-										PlayState.storyDifficulty = 0;
+										// PlayState.storyDifficulty = curDifficulty;
 										PlayState.campaignScore = 0;
 										PlayState.campaignMisses = 0;
 

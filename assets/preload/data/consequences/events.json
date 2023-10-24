@@ -1,0 +1,171 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				2400,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				4800,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				7200,
+				[
+					[
+						"History Frames",
+						"end",
+						""
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"History Frames",
+						"start",
+						""
+					]
+				]
+			],
+			[
+				133200,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				133500,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					],
+					[
+						"Change Character",
+						"bf",
+						"ketto-alert"
+					]
+				]
+			],
+			[
+				133800,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				134250,
+				[
+					[
+						"History Frames",
+						"end",
+						"0.5"
+					]
+				]
+			],
+			[
+				189257.142857143,
+				[
+					[
+						"History Frames",
+						"start",
+						"0.01"
+					]
+				]
+			],
+			[
+				192685.714285714,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				193542.857142857,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				196971.428571428,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				202971.428571428,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				206400,
+				[
+					[
+						"History Frames",
+						"",
+						""
+					]
+				]
+			],
+			[
+				230400,
+				[
+					[
+						"History Frames",
+						"ketto",
+						""
+					]
+				]
+			]
+		]
+	}
+}

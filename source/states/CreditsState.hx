@@ -45,6 +45,15 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Insomnia Team'],
+			['AllyTS',		'ally',				'Mod Direction & Sprites & Background & Music and Animation',				'https://twitter.com/NewTioSans',	'b34c4b'],
+			['Celly',		'celly',			'Concept Art & Design & Sprites and Animation',								'https://twitter.com/LittleCewwy',	'fbb334'],
+			['Low Tus',		'lowtus',			'Background & Cutscene & Music and Menu Art',								'https://twitter.com/LOW_freak3',	'444444'],
+			['Shifty',		'shifty',			'Concept Art & Music and Design',											'https://twitter.com/Shiftyyyy2',	'444444'],
+			['Nati',		'nati',				'Coding',																	'https://twitter.com/Nait0001',		'f991f1'],
+			['Aizakku',		'aizaku',			'Chart',																	'https://twitter.com/ItsAizakku',	'444444'],
+			['PheSpriter',	'phe_spriter',		'Chart',																	'https://twitter.com/PheSpriter',	'645cd3'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['Riveren',				'riveren',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/riverennn',		'B42F71'],

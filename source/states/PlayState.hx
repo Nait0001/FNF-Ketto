@@ -36,7 +36,7 @@ import tjson.TJSON as Json;
 import cutscenes.CutsceneHandler;
 import cutscenes.DialogueBoxPsych;
 
-// import states.StoryMenuState;
+import states.StoryMenuState;
 import states.FreeplayState;
 import states.editors.ChartingState;
 import states.editors.CharacterEditorState;
@@ -397,8 +397,11 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'stage': new states.stages.StageWeek1(); //Week 1
-			case 'livingroom': new states.stages.LivingRoom(); //Week 5 - Cocoa, Eggnog
+			case 'livingroom': new states.stages.LivingRoom(); 
+			case 'kitchen': new states.stages.Kitchen();
 		}
+
+		// Kitchen
 
 		if(isPixelStage) {
 			introSoundsSuffix = '-pixel';
@@ -1523,7 +1526,7 @@ class PlayState extends MusicBeatState
 	}
 
 	function invertStrumNote(invert:Bool) {
-		if (invert){
+		if (invert && !ClientPrefs.data.middleScroll){
 			var opponentNote:Array<StrumNote> = opponentStrums.members;
 			var playerNote:Array<Float> = [];
 
@@ -1855,7 +1858,7 @@ class PlayState extends MusicBeatState
 
 				// generatedMusic && !endingSong && !isCameraOnForcedPos SONG.notes[curSection] != null
 
-		if (SONG.notes[curSection] != null && (!startingSong && !endingSong && generatedMusic) && !inCutscene && !paused && !isCameraOnForcedPos) 
+		if (SONG.notes[curSection] != null && (!startingSong && !endingSong && generatedMusic) && (!inCutscene && !paused && !isCameraOnForcedPos && cameraForce != 0)) 
 			cameraNoteMove(SONG.notes[curSection].mustHitSection, SONG.notes[curSection].gfSection);
 
 		#if debug
@@ -2071,6 +2074,9 @@ class PlayState extends MusicBeatState
 					char.specialAnim = true;
 				}
 
+			case 'Duet Moment':
+				moveCameraSection();
+
 			case 'Camera Follow Pos':
 				if(camFollow != null)
 				{
@@ -2084,6 +2090,7 @@ class PlayState extends MusicBeatState
 						camFollow.y = flValue2;
 					}
 				}
+				
 
 			case 'Alt Idle Animation':
 				var char:Character = dad;
@@ -2149,7 +2156,10 @@ class PlayState extends MusicBeatState
 							boyfriend.alpha = 0.00001;
 							boyfriend = boyfriendMap.get(value2);
 							boyfriend.alpha = lastAlpha;
-							iconP1.changeIcon(boyfriend.healthIcon);
+
+							var changeIconR:HealthIcon = (invertStrum) ? iconP2 : iconP1;
+
+							changeIconR.changeIcon(boyfriend.healthIcon);
 						}
 						setOnScripts('boyfriendName', boyfriend.curCharacter);
 
@@ -2171,7 +2181,10 @@ class PlayState extends MusicBeatState
 								gf.visible = false;
 							}
 							dad.alpha = lastAlpha;
-							iconP2.changeIcon(dad.healthIcon);
+							var changeIconR:HealthIcon = (!invertStrum) ? iconP2 : iconP1;
+
+
+							changeIconR.changeIcon(dad.healthIcon);
 						}
 						setOnScripts('dadName', dad.curCharacter);
 
@@ -2452,6 +2465,14 @@ class PlayState extends MusicBeatState
 					}
 					MusicBeatState.switchState(new MainMenuState());
 
+					if(!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.getGameplaySetting('botplay')) {
+						// StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+						Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
+						ClientPrefs.data.blockMainMenu = false;
+						// FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
+						// FlxG.save.flush();
+					}
+
 					changedDifficulty = false;
 				}
 				else
@@ -2465,7 +2486,9 @@ class PlayState extends MusicBeatState
 					FlxTransitionableState.skipNextTransOut = true;
 					prevCamFollow = camFollow;
 
-					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0] + difficulty, PlayState.storyPlaylist[0]);
+					// if(difficulty == null) difficulty = '';
+
+					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0], PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
 
 					cancelMusicFadeTween();

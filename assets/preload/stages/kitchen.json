@@ -1,0 +1,15 @@
+{
+	"directory": "ketto",
+	"defaultZoom": 1.0,
+	"stageUI": "",
+
+	"boyfriend": [380, 640],
+	"opponent": [1430, 705],
+	"girlfriend": [400, 500],
+	"hide_girlfriend": true,
+	"invert_strum": true,
+	"camera_boyfriend": [-25, 0],
+	"camera_opponent": [-50, -50],
+	"camera_girlfriend": [0, 0],
+	"camera_force": 0
+}

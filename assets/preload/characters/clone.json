@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Clone idle"
+		},
+		{
+			"offsets": [
+				2,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Clone left0"
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Clone down0"
+		},
+		{
+			"offsets": [
+				-7,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Clone up0"
+		},
+		{
+			"offsets": [
+				-6,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Clone right0"
+		},
+		{
+			"offsets": [
+				320,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Clone gun idle"
+		},
+		{
+			"offsets": [
+				344,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Clone gun left0"
+		},
+		{
+			"offsets": [
+				319,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Clone gun down0"
+		},
+		{
+			"offsets": [
+				319,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Clone gun up0"
+		},
+		{
+			"offsets": [
+				316,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Clone gun right0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ketto mod/Clone",
+	"position": [
+		-100,
+		-200
+	],
+	"healthicon": "clone",
+	"flip_x": false,
+	"healthbar_colors": [
+		32,
+		37,
+		50
+	],
+	"camera_position": [
+		-550,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

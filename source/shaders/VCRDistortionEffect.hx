@@ -175,14 +175,16 @@ class VCRDistortionShader extends FlxShader
     	float scan2 = clamp(cos(uv.y * 2.0 + iTime + 4.0) * 10.0, 0.0, 1.0);
     	float amount = scan1 * scan2 * uv.x;
       
+      if(distortionOn){
+        uv = uv * 2.0 - 1.0;
+        uv *= 0.9;
+        uv = (uv + 1.0) * 0.5;
 
-      uv = uv * 2.0 - 1.0;
-      uv *= 0.9;
-      uv = (uv + 1.0) * 0.5;
+        uv.x -= 0.05 * mix(flixel_texture2D(noiseTex, vec2(uv.x, amount)).r * amount, amount, 0.9);
 
-    	uv.x -= 0.05 * mix(flixel_texture2D(noiseTex, vec2(uv.x, amount)).r * amount, amount, 0.9);
-
-    	return uv;
+        return uv;
+      }
+      return uv;
 
     }
 

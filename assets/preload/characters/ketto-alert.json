@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Hiko alert idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				-15
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Hiko alert left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-15
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Hiko alert down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-1
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Hiko alert up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				-15
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Hiko alert right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-15
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Hiko alert left miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-15
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Hiko alert down miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-1
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Hiko alert up miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				-15
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Hiko alert right miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ketto mod/HikoAlert",
+	"position": [
+		-220,
+		-220
+	],
+	"healthicon": "hiko",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-350,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

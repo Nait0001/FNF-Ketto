@@ -84,7 +84,8 @@ class ChartingState extends MusicBeatState
 		// ['Set Property', "Value 1: Variable name\nValue 2: New value"],
 		['Play Sound', "Value 1: Sound file name\nValue 2: Volume (Default: 1), ranges from 0 to 1"],
 		['Flash Camera', "Value 1: Time Flash.\nValue 2: Set Camera and Color\nex: hud, black"],
-		['History Frames', "Value 1: curFrame, if null define the comand, (start or end)"]
+		['History Frames', "Value 1: curFrame, if null define the comand, (start or end)"],
+		['Duet Moment', "Duet"]
 	];
 
 	var _file:FileReference;

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="HikoAlert.png" width="6183" height="3702">
+  <SubTexture name="Hiko alert idle0015" x="0" y="0"  width="453" height="917" frameX="-53" frameY="-22" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0017" x="453" y="0"  width="455" height="917" frameX="-51" frameY="-22" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert down miss0001" x="908" y="0"  width="474" height="918" frameX="-0" frameY="-6" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0002" x="1382" y="0"  width="474" height="918" frameX="-0" frameY="-6" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0001" x="1856" y="0"  width="474" height="918" frameX="-0" frameY="-6" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert idle0019" x="2330" y="0"  width="461" height="921" frameX="-45" frameY="-18" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert down miss0003" x="2791" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0005" x="3265" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0008" x="3739" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0011" x="4213" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0003" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert idle0007" x="5161" y="0"  width="476" height="924" frameX="-30" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0009" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0013" x="0" y="917"  width="468" height="924" frameX="-38" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0021" x="468" y="918"  width="473" height="924" frameX="-33" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert left miss0001" x="941" y="918"  width="482" height="924" frameX="-0" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0002" x="1423" y="918"  width="482" height="924" frameX="-0" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0003" x="1905" y="921"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0005" x="2380" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0008" x="2855" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0011" x="3330" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0001" x="3805" y="924"  width="482" height="924" frameX="-0" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0003" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0001" x="4762" y="924"  width="470" height="924" frameX="-4" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0002" x="5232" y="924"  width="470" height="924" frameX="-4" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0003" x="5702" y="924"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0005" x="0" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0008" x="475" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0011" x="950" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0001" x="1425" y="1842"  width="470" height="924" frameX="-4" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0003" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert up miss0003" x="2370" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0005" x="2844" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0008" x="3318" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0011" x="3792" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0003" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert idle0027" x="4740" y="1848"  width="481" height="926" frameX="-25" frameY="-13" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0005" x="5221" y="1848"  width="486" height="927" frameX="-20" frameY="-12" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert up miss0001" x="5707" y="1848"  width="476" height="933" frameX="-6" frameY="-5" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert idle0001" x="0" y="2766"  width="494" height="929" frameX="-12" frameY="-10" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0003" x="494" y="2766"  width="493" height="929" frameX="-13" frameY="-10" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert up miss0002" x="987" y="2766"  width="476" height="933" frameX="-6" frameY="-5" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0001" x="1463" y="2769"  width="476" height="933" frameX="-6" frameY="-5" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert down miss0004" x="2791" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0006" x="3265" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0007" x="3265" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0009" x="3739" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0010" x="3739" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down miss0012" x="4213" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0002" x="1856" y="0"  width="474" height="918" frameX="-0" frameY="-6" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0004" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0005" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0006" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0007" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0008" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0009" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0010" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0011" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert down0012" x="4687" y="0"  width="474" height="924" frameX="-0" frameY="-0" frameWidth="474" frameHeight="924"/>
+  <SubTexture name="Hiko alert idle0002" x="0" y="2766"  width="494" height="929" frameX="-12" frameY="-10" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0004" x="494" y="2766"  width="493" height="929" frameX="-13" frameY="-10" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0006" x="5221" y="1848"  width="486" height="927" frameX="-20" frameY="-12" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0008" x="5161" y="0"  width="476" height="924" frameX="-30" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0010" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0011" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0012" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0023" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0024" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0025" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0026" x="5637" y="0"  width="475" height="924" frameX="-31" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0014" x="0" y="917"  width="468" height="924" frameX="-38" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0016" x="0" y="0"  width="453" height="917" frameX="-53" frameY="-22" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0018" x="453" y="0"  width="455" height="917" frameX="-51" frameY="-22" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0020" x="2330" y="0"  width="461" height="921" frameX="-45" frameY="-18" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0022" x="468" y="918"  width="473" height="924" frameX="-33" frameY="-15" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert idle0028" x="4740" y="1848"  width="481" height="926" frameX="-25" frameY="-13" frameWidth="516" frameHeight="939"/>
+  <SubTexture name="Hiko alert left miss0004" x="1905" y="921"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0014" x="1905" y="921"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0006" x="2380" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0007" x="2380" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0009" x="2855" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0010" x="2855" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0012" x="3330" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left miss0013" x="3330" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0002" x="3805" y="924"  width="482" height="924" frameX="-0" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0004" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0005" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0006" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0007" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0008" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0009" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0010" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0011" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0012" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0013" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert left0014" x="4287" y="924"  width="475" height="924" frameX="-7" frameY="-0" frameWidth="482" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0004" x="5702" y="924"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0014" x="5702" y="924"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0006" x="0" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0007" x="0" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0009" x="475" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0010" x="475" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0012" x="950" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right miss0013" x="950" y="1842"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0002" x="1425" y="1842"  width="470" height="924" frameX="-4" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0004" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0005" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0006" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0007" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0008" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0009" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0010" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0011" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0012" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0013" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert right0014" x="1895" y="1845"  width="475" height="924" frameX="-0" frameY="-0" frameWidth="476" frameHeight="924"/>
+  <SubTexture name="Hiko alert up miss0004" x="2370" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0014" x="2370" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0006" x="2844" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0007" x="2844" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0009" x="3318" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0010" x="3318" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0012" x="3792" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up miss0013" x="3792" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0002" x="1463" y="2769"  width="476" height="933" frameX="-6" frameY="-5" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0004" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0005" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0006" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0007" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0008" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0009" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0010" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0011" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0012" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0013" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+  <SubTexture name="Hiko alert up0014" x="4266" y="1848"  width="474" height="924" frameX="-8" frameY="-14" frameWidth="482" frameHeight="938"/>
+</TextureAtlas>
