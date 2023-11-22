@@ -1,5 +1,7 @@
 package states;
 
+import flixel.util.FlxSpriteUtil;
+import openfl.geom.Rectangle;
 #if MODS_ALLOWED
 import sys.FileSystem;
 import sys.io.File;
@@ -22,6 +24,7 @@ class CreditsState extends MusicBeatState
 	var descBox:AttachedSprite;
 
 	var offsetThing:Float = -75;
+	var whiteGroup:FlxSpriteGroup;
 
 	override function create()
 	{
@@ -37,6 +40,12 @@ class CreditsState extends MusicBeatState
 		add(bg);
 		bg.screenCenter();
 
+		whiteGroup = new FlxSpriteGroup();
+		add(whiteGroup);
+
+		// var aa:FlxSpriteUtil = ;
+
+
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
 
@@ -48,10 +57,10 @@ class CreditsState extends MusicBeatState
 			['Insomnia Team'],
 			['AllyTS',		'ally',				'Mod Direction & Sprites & Background & Music and Animation',				'https://twitter.com/NewTioSans',	'b34c4b'],
 			['Celly',		'celly',			'Concept Art & Design & Sprites and Animation',								'https://twitter.com/LittleCewwy',	'fbb334'],
-			['Low Tus',		'lowtus',			'Background & Cutscene & Music and Menu Art',								'https://twitter.com/LOW_freak3',	'444444'],
-			['Shifty',		'shifty',			'Concept Art & Music and Design',											'https://twitter.com/Shiftyyyy2',	'444444'],
+			['Low Tus',		'lowtus',			'Background & Cutscene & Music and Menu Art',								'https://twitter.com/LOW_freak3',	'556750'],
+			['Shifty',		'shifty',			'Concept Art & Music and Design',											'https://twitter.com/Shiftyyyy2',	'43ae89'],
 			['Nati',		'nati',				'Coding',																	'https://twitter.com/Nait0001',		'f991f1'],
-			['Aizakku',		'aizaku',			'Chart',																	'https://twitter.com/ItsAizakku',	'444444'],
+			['Aizakku',		'aizaku',			'Chart',																	'https://twitter.com/ItsAizakku',	'c10014'],
 			['PheSpriter',	'phe_spriter',		'Chart',																	'https://twitter.com/PheSpriter',	'645cd3'],
 			[''],
 			['Psych Engine Team'],
@@ -93,6 +102,15 @@ class CreditsState extends MusicBeatState
 			optionText.snapToPosition();
 			grpOptions.add(optionText);
 
+			var sprite:Array<Float> = [optionText.width,optionText.height];
+
+			var white:AttachedSprite = new AttachedSprite('credits/bar');
+			// white.xAdd = optionText.width + 10;
+			white.sprTracker = optionText;
+			// white.copyAlpha = false;
+			white.antialiasing = false;
+			white.alphaMult = 0.7;
+
 			if(isSelectable) {
 				if(creditsStuff[i][5] != null)
 				{
@@ -111,8 +129,34 @@ class CreditsState extends MusicBeatState
 				Mods.currentModDirectory = '';
 
 				if(curSelected == -1) curSelected = i;
+
+				
+				// sprite = [Std.int(optionText.width + icon.width), Std.int(optionText.height + icon.height)];
+				// sprite[0] += Std.int(icon.width);
+				// sprite[1] += Std.int(icon.width);
+				sprite[0] += 50;
+				sprite[1] += 20;
+
+				// white.makeGraphic(Std.int(sprite[0]),Std.int(sprite[1]), 0x0);
+				// white.loadGraphic(Paths.image('credits/bar'));
+				white.setGraphicSize(Std.int(sprite[0]),Std.int(sprite[1]));
+				white.updateHitbox();
+				white.alpha = 0.2;
+				// white.yAdd = (optionText.height - white.height);
+				white.yAdd = (optionText.distancePerItem.y/2) - 15;
+				white.xAdd -= (white.width - optionText.width)/2;
+				whiteGroup.add(white);
+
+				// white.loadGraphicFromSprite();
+
+				// whiteGroup.drawc
+
+				// white.pixels.fillRect(new Rectangle(white.x,white.y,5,5), 0x0);
 			}
 			else optionText.alignment = CENTERED;
+			
+
+
 		}
 		
 		descBox = new AttachedSprite();
