@@ -9,7 +9,7 @@ package states;
 // "function eventPushedUnique" - Called one time per event, use it for precaching events that uses different assets based on its values
 // "function eventEarlyTrigger" - Used for making your event start a few MILLISECONDS earlier
 // "function triggerEvent" - Called when the song hits your event's timestamp, this is probably what you were looking for
-
+	
 import backend.Achievements;
 import backend.Highscore;
 import backend.StageData;
@@ -2916,6 +2916,7 @@ class PlayState extends MusicBeatState
 	function cameraNoteMove(hitSection:Bool,gfSection:Bool){
 		// mustHitSection
 		var cameraCharacter:Character = dad;
+		// dad.frames.
 		if (hitSection) cameraCharacter = boyfriend;
 		else if (gfSection && gf != null) cameraCharacter = gf;
 

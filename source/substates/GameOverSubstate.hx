@@ -61,9 +61,11 @@ class GameOverSubstate extends MusicBeatSubstate
 		boyfriend = new Character(x, y, characterName, true);
 		boyfriend.x += boyfriend.positionArray[0];
 		boyfriend.y += boyfriend.positionArray[1];
+		boyfriend.visible = false;
 		add(boyfriend);
 
-		FlxG.sound.play(Paths.sound(deathSoundName));
+		// if (PlayState.SONG.song.toLowerCase().trim() == 'consequences')
+		// 	FlxG.sound.play(Paths.sound(deathSoundName));
 		FlxG.camera.scroll.set();
 		FlxG.camera.target = null;
 
@@ -120,25 +122,15 @@ class GameOverSubstate extends MusicBeatSubstate
 					isFollowingAlready = true;
 				}
 
-				if (boyfriend.animation.curAnim.finished && !playingDeathSound)
+				if (!playingDeathSound)
 				{
 					startedDeath = true;
-					if (PlayState.SONG.stage == 'tank')
-					{
-						playingDeathSound = true;
-						coolStartDeath(0.2);
-						
-						var exclude:Array<Int> = [];
-						//if(!ClientPrefs.cursing) exclude = [1, 3, 8, 13, 17, 21];
-
-						FlxG.sound.play(Paths.sound('jeffGameover/jeffGameover-' + FlxG.random.int(1, 25, exclude)), 1, false, null, true, function() {
-							if(!isEnding)
-							{
-								FlxG.sound.music.fadeIn(0.2, 1, 4);
-							}
-						});
-					}
-					else coolStartDeath();
+					playingDeathSound = true;
+					// var sound = FlxG.sound.play(Paths.sound("shootGun"));
+					if (PlayState.SONG.song.toLowerCase() == 'consequences')
+						FlxG.sound.play(Paths.sound("shootGun"), 0.3);
+					// trace(sound);
+					coolStartDeath();
 				}
 			}
 		}
@@ -158,6 +150,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	function coolStartDeath(?volume:Float = 1):Void
 	{
 		FlxG.sound.playMusic(Paths.music(loopSoundName), volume);
+		trace(FlxG.sound.music);
 	}
 
 	function endBullshit():Void

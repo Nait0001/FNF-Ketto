@@ -122,6 +122,7 @@ class Kitchen extends BaseStage
 	//    curSection
 	override function stepHit()
 	{
+		if (curStep >= 1408) inCutscene = true;
 		// Code here
 	}
 	override function beatHit()
@@ -338,6 +339,7 @@ class Kitchen extends BaseStage
 				}
 		}
 	}
+
 	override function eventPushedUnique(event:objects.Note.EventNote)
 	{
 		// used for preloading assets used on events where its values affect what assets should be preloaded

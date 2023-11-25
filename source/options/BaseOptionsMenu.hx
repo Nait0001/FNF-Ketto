@@ -1,5 +1,6 @@
 package options;
 
+import objects.AttachedSprite;
 import objects.CheckboxThingie;
 import objects.AttachedText;
 import options.Option;
@@ -19,6 +20,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 
 	public var title:String;
 	public var rpcTitle:String;
+	var whiteGroup:FlxSpriteGroup;
 
 	public function new()
 	{
@@ -34,6 +36,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		var bg:BGSprite = new BGSprite('livingroom/livingroom');
 		bg.screenCenter();
 		add(bg);
+
+		whiteGroup = new FlxSpriteGroup();
+		add(whiteGroup);
 
 		// avoids lagspikes while scrolling through menus!
 		grpOptions = new FlxTypedGroup<Alphabet>();
@@ -69,6 +74,17 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			optionText.targetY = i;
 			grpOptions.add(optionText);
 
+			var sprite:Array<Float> = [optionText.width,optionText.height];
+
+			var white:AttachedSprite = new AttachedSprite('credits/bar');
+			white.sprTracker = optionText;
+			white.antialiasing = false;
+			white.alphaMult = 0.7;
+			sprite[0] += 50;
+			sprite[1] += 20;
+
+			var posExtra:Float = 0;
+
 			if(optionsArray[i].type == 'bool') {
 				var checkbox:CheckboxThingie = new CheckboxThingie(optionText.x - 105, optionText.y, optionsArray[i].getValue() == true);
 				checkbox.sprTracker = optionText;
@@ -83,8 +99,17 @@ class BaseOptionsMenu extends MusicBeatSubstate
 				valueText.copyAlpha = true;
 				valueText.ID = i;
 				grpTexts.add(valueText);
+				posExtra = (optionText.x - valueText.x) + valueText.width;
+				sprite[0] += posExtra;
 				optionsArray[i].child = valueText;
 			}
+
+			white.setGraphicSize(Std.int(sprite[0]),Std.int(sprite[1]));
+			white.updateHitbox();
+			white.alpha = 0.2;
+			white.yAdd = (optionText.distancePerItem.y/2) - 15;
+			white.xAdd -= (white.width - (optionText.width + posExtra))/2;
+			whiteGroup.add(white);
 			//optionText.snapToPosition(); //Don't ignore me when i ask for not making a fucking pull request to uncomment this line ok
 			updateTextFrom(optionsArray[i]);
 		}

@@ -102,15 +102,6 @@ class CreditsState extends MusicBeatState
 			optionText.snapToPosition();
 			grpOptions.add(optionText);
 
-			var sprite:Array<Float> = [optionText.width,optionText.height];
-
-			var white:AttachedSprite = new AttachedSprite('credits/bar');
-			// white.xAdd = optionText.width + 10;
-			white.sprTracker = optionText;
-			// white.copyAlpha = false;
-			white.antialiasing = false;
-			white.alphaMult = 0.7;
-
 			if(isSelectable) {
 				if(creditsStuff[i][5] != null)
 				{
@@ -131,27 +122,21 @@ class CreditsState extends MusicBeatState
 				if(curSelected == -1) curSelected = i;
 
 				
-				// sprite = [Std.int(optionText.width + icon.width), Std.int(optionText.height + icon.height)];
-				// sprite[0] += Std.int(icon.width);
-				// sprite[1] += Std.int(icon.width);
+				var sprite:Array<Float> = [optionText.width,optionText.height];
+
+				var white:AttachedSprite = new AttachedSprite('credits/bar');
+				white.sprTracker = optionText;
+				white.antialiasing = false;
+				white.alphaMult = 0.7;
 				sprite[0] += 50;
 				sprite[1] += 20;
 
-				// white.makeGraphic(Std.int(sprite[0]),Std.int(sprite[1]), 0x0);
-				// white.loadGraphic(Paths.image('credits/bar'));
 				white.setGraphicSize(Std.int(sprite[0]),Std.int(sprite[1]));
 				white.updateHitbox();
 				white.alpha = 0.2;
-				// white.yAdd = (optionText.height - white.height);
 				white.yAdd = (optionText.distancePerItem.y/2) - 15;
 				white.xAdd -= (white.width - optionText.width)/2;
 				whiteGroup.add(white);
-
-				// white.loadGraphicFromSprite();
-
-				// whiteGroup.drawc
-
-				// white.pixels.fillRect(new Rectangle(white.x,white.y,5,5), 0x0);
 			}
 			else optionText.alignment = CENTERED;
 			
